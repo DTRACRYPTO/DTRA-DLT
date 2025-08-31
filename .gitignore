@@ -1,6 +1,12 @@
-pycache/
-*.pyc
+# Node / frontend
 node_modules/
-dist/
-.DS_Store
+.dist/
+build/
 .env
+# Python
+__pycache__/
+*.pyc
+.venv/
+# OS clutter
+.DS_Store
+Thumbs.db

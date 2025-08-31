@@ -1,0 +1,42 @@
+
+/*
+Theme Name: DTRA Dark
+Theme URI: https://example.com/dtra
+Author: DTRA
+Author URI: https://example.com
+Description: Dark, friendly landing theme for DTRA with a Buy page template and marketplace section.
+Version: 1.0.0
+Text Domain: dtra-dark
+*/
+:root{
+  --bg:#0b1220;
+  --panel:#0f172a;
+  --muted:#94a3b8;
+  --brand:#6366f1;
+  --accent:#14b8a6;
+  --text:#e2e8f0;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Noto Sans","Helvetica Neue",Arial}
+a{color:var(--brand);text-decoration:none}
+.container{max-width:1100px;margin:0 auto;padding:24px}
+.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+.btn{display:inline-block;background:var(--brand);color:#fff;padding:10px 16px;border-radius:12px}
+.btn:hover{opacity:.92}
+.card{background:var(--panel);border:1px solid #1f2937;padding:18px;border-radius:16px}
+.grid{display:grid;gap:16px}
+.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.hero{padding:48px;border-radius:20px;background:linear-gradient(180deg,#0e172a,#0b1220)}
+.subtle{color:var(--muted)}
+.footer{margin-top:48px;padding:24px 0;color:var(--muted);font-size:14px}
+h1,h2,h3{margin:0 0 12px}
+input,select,textarea{background:#0b1220;border:1px solid #233148;color:var(--text);padding:10px;border-radius:10px;width:100%}
+label{font-size:14px;color:var(--muted);display:block;margin-bottom:6px}
+table{width:100%;border-collapse:collapse}
+th,td{padding:10px;border-bottom:1px solid #1f2937;text-align:left}
+.badge{display:inline-block;background:rgba(20,184,166,.15);border:1px solid var(--accent);color:#c4fff7;font-size:12px;padding:2px 8px;border-radius:999px}
+.center{text-align:center}
+.market-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
+.price{font-weight:600}
+.small{font-size:12px;color:var(--muted)}
+.nav a{margin-right:12px}
